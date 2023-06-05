@@ -26,3 +26,8 @@ class Item:
 item1 = Item()
 item1.is_integer()
 item1.instantiate_from_something()
+
+
+# For the part number 6 (getters and setters) we'll organize the code as shown below.
+    # we'll have a script for each class
+    # and then' wel'll have a main.py script to instantiate objects
