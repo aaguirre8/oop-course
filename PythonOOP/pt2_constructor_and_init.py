@@ -1,4 +1,5 @@
 class Item:
+
     # we can restrict the expected type using a common sign followed by the data type
     def __init__(self, name: str, price: float, quantity=0):
         # Run validation to the received arguments
@@ -17,6 +18,3 @@ class Item:
 
 item1 = Item("Phone", 100, 1)
 item2 = Item("Laptop", 3000, 3)
-
-print(item1.calculate_total_price())
-print(item2.calculate_total_price())
